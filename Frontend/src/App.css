@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+@media (max-width: 768px) {
+  @keyframes marquee {
+  0% {
+    transform: translateX(40%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+  .animate-marquee {
+    animation-duration: 18s;
+  }
+}
+
+.hover\:pause:hover {
+  animation-play-state: paused;
+}
+
+
+.clip-footer {
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+
+/* .story-footer {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+} */
+
+
+.clip-right {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+
+.clip-left {
+  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+
+.story-image {
+  aspect-ratio: 3/5;
+  overflow: hidden;
+  border-radius: 200px 200px 10px 10px; /* 🔥 nail top curve */
+  border: 10px solid white;
+}
+
+.story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll-left 15s linear infinite;
+}
+
+/* Faster on small screens */
+@media (max-width: 768px) {
+  @keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-250%);
+  }
+}
+  .animate-scroll {
+    animation-duration: 15s;
+  }
+}
+
+.hover\:pause:hover {
+  animation-play-state: paused;
+}
