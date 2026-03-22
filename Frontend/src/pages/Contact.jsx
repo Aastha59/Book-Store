@@ -45,9 +45,9 @@ function Contact({ darkMode }) {
   };
 
   const contacts = [
-    { icon: "✉", label: "Email", value: "hello@etherealstrokes.com", href: "mailto:hello@etherealstrokes.com" },
+    { icon: "✉", label: "Email", value: "pressesbytns@gmail.com", href: "mailto:pressesbytns@gmail.com" },
     { icon: "📍", label: "Location", value: "India", href: null },
-    { icon: "📸", label: "Instagram", value: "@etherealstrokes", href: "https://instagram.com/etherealstrokes" },
+    { icon: "📸", label: "Instagram", value: "@pressesbytns", href: "https://instagram.com/pressed_by_tns?igsh=amVjeW8zYXFjNXBk" },
   ];
 
   return (

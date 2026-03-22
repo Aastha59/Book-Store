@@ -81,22 +81,22 @@ function Footer() {
           <ul className="space-y-2">
             <li>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/the_nailstation_ldh?igsh=aGRxZDc5OHU4aDM1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-yellow-400 transition"
               >
-                Instagram
+                Instagram 1
               </a>
             </li>
             <li>
               <a
-                href="https://facebook.com"
+                href="https://instagram.com/pressed_by_tns?igsh=amVjeW8zYXFjNXBk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-yellow-400 transition"
               >
-                Facebook
+                Instagram 2
               </a>
             </li>
           </ul>
@@ -110,7 +110,7 @@ function Footer() {
               href="mailto:hello@etherealstrokes.com"
               className="hover:text-yellow-400 transition"
             >
-              hello@etherealstrokes.com
+              pressesbytns@gmail.com
             </a>
           </p>
         </div>
